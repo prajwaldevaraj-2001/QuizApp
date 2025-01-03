@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="ButtonStyle">
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Text style for questions -->
+    <style name="QuestionTextStyle">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Option text style -->
+    <style name="OptionTextStyle">
+        <item name="android:background">@drawable/option_selector</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
