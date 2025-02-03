@@ -24,7 +24,7 @@ QuizApp is an interactive quiz application that allows users to take quizzes on 
 
 ## Installation
 
-### Prerequisites
+## Prerequisites
 
 Before running the application, make sure you have the following installed:
 - Python 3.x
